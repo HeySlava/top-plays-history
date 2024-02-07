@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 env:
-  NBA_CHAT_ID: ${{ secrets.NBA_CHAT_ID }}
-  NBA_TOKEN: ${{ secrets.NBA_TOKEN }}
+  NOTIFY_CHAT_ID: ${{ secrets.NBA_CHAT_ID }}
+  NOTIFY_TOKEN: ${{ secrets.NBA_TOKEN }}
 
 jobs:
     scheduled:
@@ -23,9 +23,9 @@ jobs:
                 python-version: '3.11'
             - name: Install package
               run: |-
-                  pip install git+https://github.com/HeySlava/top_plays.git
-            - name: Run top-plays
-              run: top-plays
+                  pip install git+https://github.com/HeySlava/youtube-notify.git
+            - name: Run youtube-notify
+              run: youtube-notify
             - name: Commit and push if changed
               run: |
                   git config user.name "Automated"

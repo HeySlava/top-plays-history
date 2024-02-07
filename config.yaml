@@ -1,0 +1,67 @@
+playlists:
+  - url: "https://www.youtube.com/@NBA/videos"
+    tag: "NBA"
+    pattern:
+      regex: |
+        NBA's\s*Top\s*\d+\s*Plays\s*Of\s*The\s*Night
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@FIBA3x3/videos"
+    tag: "FIBA3x3"
+    pattern:
+      regex: |
+        top\s*\d+|highlights
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@euroleague/videos"
+    tag: "euroleague"
+    pattern:
+      regex: |
+        top\s*\d+\s*(play|assist|block|dunk)?
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@vtbleague/videos"
+    tag: "vtbleague"
+    pattern:
+      regex: |
+        Top\s*\d+\s*Plays
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@acbcom/videos"
+    tag: "ACB"
+    pattern:
+      regex: |
+        top\s*\d+
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@BasketballCL/videos"
+    tag: "BasketballCL"
+    pattern:
+      regex: |
+        top\s*\d+\s*play
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@FIBA/videos"
+    tag: "FIBA"
+    pattern:
+      regex: |
+        top\s*\d+\s*plays
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@nbagleague/videos"
+    tag: "nbagleague"
+    pattern:
+      regex: |
+        top\s*\d+\s*plays
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@legabasket/videos"
+    tag: "legabasket"
+    pattern:
+      regex: |
+        top\s*\d+\s*pokerstarsnews
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@LNBOfficiel/videos"
+    tag: "LNBOfficiel"
+    pattern:
+      regex: |
+        elite\s*top\s*\d+\s
+      flags: IGNORECASE
+  - url: "https://www.youtube.com/@WNBA/videos"
+    tag: "LNBOfficiel"
+    pattern:
+      regex: |
+        best\s*of\s*wnba
+      flags: IGNORECASE
