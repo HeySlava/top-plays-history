@@ -3,7 +3,7 @@ playlists:
     tag: "NBA"
     pattern:
       regex: |
-        NBA's\s*Top\s*\d+\s*Plays\s*Of\s*The\s*Night
+        NBA.*\s*Top\s*\d+\s*Plays\s*Of\s*The\s*Night
       flags: IGNORECASE
   - url: "https://www.youtube.com/@FIBA3x3/videos"
     tag: "FIBA3x3"
