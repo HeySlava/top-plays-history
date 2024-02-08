@@ -60,7 +60,7 @@ playlists:
         elite\s*top\s*\d+\s
       flags: IGNORECASE
   - url: "https://www.youtube.com/@WNBA/videos"
-    tag: "LNBOfficiel"
+    tag: "WNBA"
     pattern:
       regex: |
         best\s*of\s*wnba
