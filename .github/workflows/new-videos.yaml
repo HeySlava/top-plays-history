@@ -23,7 +23,7 @@ jobs:
                 python-version: '3.11'
             - name: Install package
               run: |-
-                  pip install git+https://github.com/HeySlava/youtube-notify.git
+                  pip install -r requirements.txt
             - name: Run youtube-notify
               run: youtube-notify
             - name: Commit and push if changed
