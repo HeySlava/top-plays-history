@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+
+from youtube_notify import _get_raw_output
+
+
+playlist_url = 'https://www.youtube.com/@FIBA/videos'
+
+
+def main() -> int:
+    raw_output = _get_raw_output(playlist_url, n_videos=2000)
+    print(raw_output)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
