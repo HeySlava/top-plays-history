@@ -65,3 +65,9 @@ playlists:
       regex: |
         best\s*of\s*wnba
       flags: IGNORECASE
+  - url: "https://www.youtube.com/EuroLeagueWomen/videos"
+    tag: "EuroLeagueWomen"
+    pattern:
+      regex: |
+        top\s*\d+\s*play
+      flags: IGNORECASE
