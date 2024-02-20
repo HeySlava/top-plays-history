@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 
 
-from youtube_notify import _get_raw_output
+import argparse
+from typing import Optional
+from youtube_notify import Sequence, _get_raw_output
 
 
-playlist_url = 'https://www.youtube.com/@FIBA/videos'
-
-
-def main() -> int:
-    raw_output = _get_raw_output(playlist_url, n_videos=2000)
+def main(argv: Optional[Sequence[str]] = None) -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+            '-U', '--playlist_url',
+            help='Playlist url',
+        )
+    args = parser.parse_args(argv)
+    raw_output = _get_raw_output(args.playlist_url, n_videos=2000)
     print(raw_output)
     return 0
 
