@@ -39,7 +39,7 @@ playlists:
     tag: "FIBA"
     pattern:
       regex: |
-        top\s*\d+\s*plays
+        top\s*\d+\s*plays|best\s*of
       flags: IGNORECASE
   - url: "https://www.youtube.com/@nbagleague/videos"
     tag: "nbagleague"
