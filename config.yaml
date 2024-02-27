@@ -71,3 +71,9 @@ playlists:
       regex: |
         top\s*\d+\s*play
       flags: IGNORECASE
+  - url: "https://www.youtube.com/@nationalwheelchairbasketba3804/videos"
+    tag: "nationalwheelchairbasketba3804"
+    pattern:
+      regex: |
+        .*
+      flags: IGNORECASE
