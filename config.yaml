@@ -73,6 +73,7 @@ playlists:
       flags: IGNORECASE
   - url: "https://www.youtube.com/@nationalwheelchairbasketba3804/videos"
     tag: "nationalwheelchairbasketba3804"
+    n_videos: 2
     pattern:
       regex: |
         .*
