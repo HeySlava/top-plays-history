@@ -72,7 +72,7 @@ playlists:
         top\s*\d+\s*play
       flags: IGNORECASE
   - url: "https://www.youtube.com/@nationalwheelchairbasketba3804/videos"
-    tag: "nationalwheelchairbasketba3804"
+    tag: "NWBA"
     n_videos: 2
     pattern:
       regex: |
