@@ -61,9 +61,10 @@ playlists:
       flags: IGNORECASE
   - url: "https://www.youtube.com/@WNBA/videos"
     tag: "WNBA"
+    n_videos: 5
     pattern:
       regex: |
-        best\s*of\s*wnba
+        best\s*of\s*wnba|highlights
       flags: IGNORECASE
   - url: "https://www.youtube.com/EuroLeagueWomen/videos"
     tag: "EuroLeagueWomen"
